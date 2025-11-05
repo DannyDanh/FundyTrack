@@ -5,9 +5,9 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 ## Create the List of Tables
 
 [👉🏾👉🏾👉🏾 List each table in your diagram]
--Users Profiles
+-User Profiles
 -Transactions
--Transactions Types
+-Transaction Categories
 
 ## Add the Entity Relationship Diagram
 
@@ -32,8 +32,17 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 | Column Name | Type | Description |
 |-------------|------|-------------|
 | id | integer | primary key |
-| user_id | integer | Users Profiles -> id |
+| user_id | integer | Users Profiles Table -> id |
 | amount | decimal | Transaction amount (negative for expenses, positive for income) |
 | description | text | transaction notes |
 | occurred_at | timestamp | Date of transaction |
-| transaction_type_id | integer | transaction type id |
+| transaction_cate_id | integer | categories table -> transaction categories id |
+
+-Categories
+| Column Name | Type | Description |
+|-------------|------|-------------|
+| id | integer | primary key |
+| name | text | category name (Food, Rent, ...) |
+| icon | text | Category icon link |
+
+
