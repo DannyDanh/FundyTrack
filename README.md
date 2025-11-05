@@ -10,13 +10,13 @@ Designed and developed by: Danh Nguyen and Richmond Acquah
 
 ### Description and Purpose
 
-FinPort is a comprehensive personal finance dashboard that empowers users to manage income, expenses, and investments effortlessly. It provides tools to record transactions, categorize spending, and visualize financial health through intuitive charts and reports.
+FundyTrack is a comprehensive personal finance dashboard that empowers users to manage income, expenses, and investments effortlessly. It provides tools to record transactions, categorize spending, and visualize financial health through intuitive charts and reports.
 
 By consolidating multiple financial activities into one modern interface, FinPort eliminates the need for juggling spreadsheets or multiple banking apps. Users can easily track where their money goes, identify spending patterns, and monitor their net worth growth—all from a single, organized platform.
 
 ### Inspiration
 
-FinPort was inspired by the idea that effective financial management should be simple, transparent, and accessible. As students passionate about both technology and finance, we set out to build a clean, privacy-focused budgeting experience that teaches financial awareness while demonstrating key full-stack development principles. FinPort blends practical money management with data visualization, making it not just a budgeting tool—but a learning platform for smarter financial decision-making.
+FundyTrack was inspired by the idea that effective financial management should be simple, transparent, and accessible. As students passionate about both technology and finance, we set out to build a clean, privacy-focused budgeting experience that teaches financial awareness while demonstrating key full-stack development principles. FundyTrack blends practical money management with data visualization, making it not just a budgeting tool—but a learning platform for smarter financial decision-making.
 
 ## Tech Stack
 
