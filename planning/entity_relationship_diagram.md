@@ -5,6 +5,9 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 ## Create the List of Tables
 
 [👉🏾👉🏾👉🏾 List each table in your diagram]
+-Users Profiles
+-Transactions
+-Transactions Types
 
 ## Add the Entity Relationship Diagram
 
@@ -15,3 +18,22 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 | id | integer | primary key |
 | name | text | name of the shoe model |
 | ... | ... | ... |
+
+-Users Profiles
+| Column Name | Type | Description |
+|-------------|------|-------------|
+| id | integer | primary key |
+| name | text | name of the user |
+| email | text | users' unique email |
+| password | text | encrypted password |
+| created_at | timestamp | account creation date |
+
+-Transactions
+| Column Name | Type | Description |
+|-------------|------|-------------|
+| id | integer | primary key |
+| user_id | integer | Users Profiles -> id |
+| amount | decimal | Transaction amount (negative for expenses, positive for income) |
+| description | text | transaction notes |
+| occurred_at | timestamp | Date of transaction |
+| transaction_type_id | integer | transaction type id |
