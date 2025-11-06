@@ -10,13 +10,11 @@ Designed and developed by: Danh Nguyen and Richmond Acquah
 
 ### Description and Purpose
 
-FundyTrack is a comprehensive personal finance dashboard that empowers users to manage income, expenses, and investments effortlessly. It provides tools to record transactions, categorize spending, and visualize financial health through intuitive charts and reports.
-
-By consolidating multiple financial activities into one modern interface, FinPort eliminates the need for juggling spreadsheets or multiple banking apps. Users can easily track where their money goes, identify spending patterns, and monitor their net worth growth—all from a single, organized platform.
+FundyTrack is a comprehensive yet simple personal finance tracker that empowers users to effortlessly manage income, expenses, and investments. It offers intuitive tools to record transactions, categorize spending, and visualize financial health through clean charts and insightful reports. Beyond tracking, FundyTrack builds community — allowing users to share personal finance knowledge, tips, and real-life experiences. The platform also features engaging, goal-oriented challenges such as “Save $20 every day for a month” to keep users motivated and accountable while turning saving into a rewarding habit. Whether you’re budgeting smarter, learning from others, or growing your savings step by step, FundyTrack helps you take control of your financial journey with confidence, clarity, and a supportive community by your side.
 
 ### Inspiration
 
-FundyTrack was inspired by the idea that effective financial management should be simple, transparent, and accessible. As students passionate about both technology and finance, we set out to build a clean, privacy-focused budgeting experience that teaches financial awareness while demonstrating key full-stack development principles. FundyTrack blends practical money management with data visualization, making it not just a budgeting tool—but a learning platform for smarter financial decision-making.
+FundyTrack was inspired by the realization that many college students and young adults — including ourselves — often overlook the importance of budgeting and managing their finances. Between classes, part-time jobs, and social expenses, it’s easy to lose track of spending and savings. We wanted to create a tool that makes financial awareness simple, visual, and approachable for people our age. FundyTrack helps young users build healthy money habits early, empowering them to understand where their money goes, set meaningful goals, and develop confidence in their financial future.
 
 ## Tech Stack
 
