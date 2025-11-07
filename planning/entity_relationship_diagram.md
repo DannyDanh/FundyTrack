@@ -5,44 +5,14 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 ## Create the List of Tables
 
 [👉🏾👉🏾👉🏾 List each table in your diagram]
--User Profiles
+-Users Profiles
 -Transactions
 -Transaction Categories
-
+-Budgets
 ## Add the Entity Relationship Diagram
 
 [👉🏾👉🏾👉🏾 Include an image or images of the diagram below. You may also wish to use the following markdown syntax to outline each table, as per your preference.]
 
-| Column Name | Type | Description |
-|-------------|------|-------------|
-| id | integer | primary key |
-| name | text | name of the shoe model |
-| ... | ... | ... |
-
--Users Profiles
-| Column Name | Type | Description |
-|-------------|------|-------------|
-| id | integer | primary key |
-| name | text | name of the user |
-| email | text | users' unique email |
-| password | text | encrypted password |
-| created_at | timestamp | account creation date |
-
--Transactions
-| Column Name | Type | Description |
-|-------------|------|-------------|
-| id | integer | primary key |
-| user_id | integer | Users Profiles Table -> id |
-| amount | decimal | Transaction amount (negative for expenses, positive for income) |
-| description | text | transaction notes |
-| occurred_at | timestamp | Date of transaction |
-| transaction_cate_id | integer | categories table -> transaction categories id |
-
--Categories
-| Column Name | Type | Description |
-|-------------|------|-------------|
-| id | integer | primary key |
-| name | text | category name (Food, Rent, ...) |
-| icon | text | Category icon link |
+<img width="962" height="749" alt="finalporject_erd" src="https://github.com/user-attachments/assets/4e191650-5d4f-46be-b553-fb1a7cb59059" />
 
 
