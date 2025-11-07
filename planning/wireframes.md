@@ -16,11 +16,12 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 [👉🏾👉🏾👉🏾 include wireframe 1]
 
 ## Wireframe 2: [Home Page]
-<img width="1442" height="1022" alt="image" src="https://github.com/user-attachments/assets/f0c68783-71e2-4822-9cd5-dd9a4a11cdaa" />
+<img width="1444" height="1020" alt="image" src="https://github.com/user-attachments/assets/47360514-9c14-43cd-8f50-2f4244ae0f32" />
 
 [👉🏾👉🏾👉🏾 include wireframe 2]
 
-## Wireframe 3: [page title]
+## Wireframe 3: [Transactions Page]
+<img width="1438" height="1018" alt="image" src="https://github.com/user-attachments/assets/24769293-3ea2-409d-a67c-09bc95bd5f3b" />
 
 [👉🏾👉🏾👉🏾 include wireframe 3]
 
