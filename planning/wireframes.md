@@ -8,6 +8,7 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 - Landing page
 - Home page
 - Transactions page
+- Community Page
 - Insights page
 - Profile page
 ## Wireframe 1: [Landing Page]
