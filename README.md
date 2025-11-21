@@ -4,7 +4,7 @@ CodePath WEB103 Final Project
 
 Designed and developed by: **Danh Nguyen** 
 
-🔗 **Live App:** *(Add Render link here)*  
+🔗 **Live App:** *[(Add Render link here)](https://fundytrack-frontend.onrender.com)*  
 🔗 **Backend API:** *(Add Render backend link here)*
 
 ---
