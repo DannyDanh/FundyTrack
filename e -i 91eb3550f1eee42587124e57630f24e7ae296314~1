@@ -1,0 +1,333 @@
+[33mcommit 91eb3550f1eee42587124e57630f24e7ae296314[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: DannyDanh <nguyendanhdanny@gmail.com>
+Date:   Fri Nov 21 16:59:40 2025 -0600
+
+    Recommit without env secrets
+
+[33mcommit d0213c473bfcf7390369f6006003ea5637ccbbb3[m
+Author: DannyDanh <nguyendanhdanny@gmail.com>
+Date:   Fri Nov 21 16:54:36 2025 -0600
+
+    update
+
+[33mcommit e178dccd4eb5409af183cd936bfa1ca82644b4d7[m
+Author: DannyDanh <nguyendanhdanny@gmail.com>
+Date:   Fri Nov 21 16:48:52 2025 -0600
+
+    update
+
+[33mcommit 3d4bac47766038e4d737ee09f871432c5a0a68fa[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: DannyDanh <nguyendanhdanny@gmail.com>
+Date:   Wed Nov 12 02:19:30 2025 -0500
+
+    set up
+
+[33mcommit 0cf69ae51183a53ea97113ae30f6b3f1cd07c8c2[m
+Author: DannyDanh <nguyendanhdanny@gmail.com>
+Date:   Wed Nov 12 02:15:22 2025 -0500
+
+    set up
+
+[33mcommit ee4f0966ce99d7aba066426acd380efeb300cfcf[m
+Author: DannyDanh <43716151+DannyDanh@users.noreply.github.com>
+Date:   Fri Nov 14 00:49:42 2025 -0500
+
+    Update milestone3.md
+
+[33mcommit 59b89f97d2aa846822079d4d959a9f69fd39d4b5[m
+Author: DannyDanh <43716151+DannyDanh@users.noreply.github.com>
+Date:   Thu Nov 6 23:58:19 2025 -0500
+
+    Update entity_relationship_diagram.md
+    
+    update erd
+
+[33mcommit b7c944c005f2079fd46ea09a1425bbd0004914c1[m
+Author: DannyDanh <43716151+DannyDanh@users.noreply.github.com>
+Date:   Thu Nov 6 23:28:16 2025 -0500
+
+    Update wireframes.md
+    
+    update
+
+[33mcommit 9d076c1e087b8970e88121fc925793a28499863d[m
+Author: DannyDanh <43716151+DannyDanh@users.noreply.github.com>
+Date:   Thu Nov 6 23:27:21 2025 -0500
+
+    Update wireframes.md
+    
+    add community page
+
+[33mcommit b9c007470cf6d73fdac37f3dd3f08763f17d5be6[m
+Author: DannyDanh <43716151+DannyDanh@users.noreply.github.com>
+Date:   Thu Nov 6 23:25:51 2025 -0500
+
+    Update milestone2.md
+    
+    complete
+
+[33mcommit 6f4d15733b022ee9c7521b05b096240e7049b598[m
+Author: DannyDanh <43716151+DannyDanh@users.noreply.github.com>
+Date:   Thu Nov 6 23:20:29 2025 -0500
+
+    Update wireframes.md
+    
+    add and adjust wireframes
+
+[33mcommit 3b0a225c683596daca15e21a7ef2225ebcafb975[m
+Author: DannyDanh <43716151+DannyDanh@users.noreply.github.com>
+Date:   Wed Nov 5 20:29:19 2025 -0500
+
+    Update README.md
+    
+    adjust description and inspiration
+
+[33mcommit f4cdcf3b291fec8446f7ea80a6cd0761b509c886[m
+Author: DannyDanh <43716151+DannyDanh@users.noreply.github.com>
+Date:   Wed Nov 5 00:58:30 2025 -0500
+
+    Update entity_relationship_diagram.md
+    
+    add some tables
+
+[33mcommit d59a0051278ec6ef94a35d7135a5dba59279ebaa[m
+Author: DannyDanh <43716151+DannyDanh@users.noreply.github.com>
+Date:   Wed Nov 5 00:34:45 2025 -0500
+
+    Update README.md
+    
+    change webapp name
+
+[33mcommit 5ebb0a5319e8c6acc8f3df3ab7925a104d2c5405[m
+Author: DannyDanh <43716151+DannyDanh@users.noreply.github.com>
+Date:   Wed Nov 5 00:27:10 2025 -0500
+
+    Update entity_relationship_diagram.md
+    
+    add ERD
+
+[33mcommit 021e9a41a372f49e613e7c78d7d5b31054eebbdc[m
+Author: DannyDanh <43716151+DannyDanh@users.noreply.github.com>
+Date:   Wed Nov 5 00:10:40 2025 -0500
+
+    Update wireframes.md
+    
+    add wireframes
+
+[33mcommit f823d1e2e9af336c2a24aa2931fc1f315d0fc338[m
+Author: DannyDanh <43716151+DannyDanh@users.noreply.github.com>
+Date:   Wed Nov 5 00:03:38 2025 -0500
+
+    Update wireframes.md
+    
+    add pages
+
+[33mcommit d42e4108747680d2b39503076d2b15302d4b6b46[m
+Author: DannyDanh <43716151+DannyDanh@users.noreply.github.com>
+Date:   Sun Nov 2 15:30:05 2025 -0500
+
+    Update README.md
+
+[33mcommit d717d05202b24393bfd259059180a10a945ca597[m
+Author: DannyDanh <43716151+DannyDanh@users.noreply.github.com>
+Date:   Sat Nov 1 12:51:16 2025 -0400
+
+    Update README.md
+
+[33mcommit 5f650c8a6f7476cc063ce31d4f1dcc3d35a23489[m
+Author: DannyDanh <nguyendanhdanny@gmail.com>
+Date:   Wed Oct 29 00:59:54 2025 -0400
+
+    update
+
+[33mcommit 3118dabae9ba2203365f6cf4698d0d01cb83f97a[m
+Author: DannyDanh <nguyendanhdanny@gmail.com>
+Date:   Wed Oct 29 00:57:39 2025 -0400
+
+    Initial commit
+
+[33mcommit be58bd086c44279643274b09becb17d35f48e576[m
+Author: kyra-ptn <kyra@codepath.org>
+Date:   Thu Jul 31 18:28:12 2025 -0700
+
+    Align stretch features with grading rubric
+
+[33mcommit 6b9bb12e9cf0297a6c663689c457ee1d8f72a487[m
+Author: kyra-ptn <kyra@codepath.org>
+Date:   Thu Jul 31 18:22:46 2025 -0700
+
+    Align stretch features with grading rubric
+
+[33mcommit 0bb3c88b01b59c739373a496515f2f616e06c2ad[m
+Author: kyra-ptn <kyra@codepath.org>
+Date:   Thu Jul 31 18:15:22 2025 -0700
+
+    Align baseline final project features and grading rubric
+
+[33mcommit 9f8f63bae81a89fc5908c7709e866304664ae5c4[m
+Author: kyra-ptn <kyra@codepath.org>
+Date:   Thu Jul 31 13:18:30 2025 -0700
+
+    Fix number of reflection questions
+
+[33mcommit 99989d5793d813e726989481e27291bd5d581ef6[m
+Author: kyra-ptn <kyra@codepath.org>
+Date:   Thu Jul 31 13:16:51 2025 -0700
+
+    Update milestone language
+
+[33mcommit d2619e576c330064157c125aecc947aeb8ef5a6f[m
+Author: kyra-ptn <kyra@codepath.org>
+Date:   Thu Jul 31 13:07:22 2025 -0700
+
+    Align Milestone 3 checklist with grading
+
+[33mcommit a77e97c325f71f1e3a6aff1d2f3d1aa0fa35a405[m
+Author: kyra-ptn <kyra@codepath.org>
+Date:   Thu Jul 31 12:54:39 2025 -0700
+
+    Align Milestone 1 & 2 checklist with grading
+
+[33mcommit 8715893e5b35478c942238da248102abbd13c174[m
+Author: kyra-ptn <kyra@codepath.org>
+Date:   Thu Jul 31 12:41:54 2025 -0700
+
+    Align Milestone 1 checklist with grading
+
+[33mcommit 955d07d604e864c76cc2a3363fb61e1de4bd6dd2[m
+Merge: 052299b 3e40be3
+Author: Kyra Patton <144150344+kyra-ptn@users.noreply.github.com>
+Date:   Thu Jul 31 12:11:02 2025 -0700
+
+    Merge pull request #70 from christina-faye/convert-railway-to-render
+    
+    Moves milestone 5 to render from railway
+
+[33mcommit 3e40be3e940e74215cea3b01eb8f866a361d2cb4[m
+Author: christina-faye <198244416+christina-faye@users.noreply.github.com>
+Date:   Tue Jul 29 11:27:05 2025 -0500
+
+    moves milestone 5 to render from railway
+
+[33mcommit 052299b352e65520e459710a9e53af3bbc33c0da[m
+Author: isabel-gwara <isabel.gwara@gmail.com>
+Date:   Sun Jun 4 15:58:42 2023 -0700
+
+    Update filtering/sorting stretch feature
+
+[33mcommit a1b80086bb6aad776397a8d09cb67399c1ad1735[m
+Author: isabel-gwara <isabel.gwara@gmail.com>
+Date:   Sun Jun 4 14:20:08 2023 -0700
+
+    Add grading checklist to milestone 5 doc
+
+[33mcommit 67432118b5f154931156f68419606799c8a472ab[m
+Author: isabel-gwara <isabel.gwara@gmail.com>
+Date:   Sun Apr 16 23:01:14 2023 -0700
+
+    Update feature list requirement
+
+[33mcommit e88ecab9e7b1aca6db937858e3628d1f60ac1e47[m
+Author: isabel-gwara <isabel.gwara@gmail.com>
+Date:   Sun Apr 16 22:47:05 2023 -0700
+
+    Update demo video requirement
+
+[33mcommit fbf4476b68acf34fc242a075fa26a40a0e50de9a[m
+Merge: fee9e54 6283a01
+Author: karencarreon <113876629+karencarreon@users.noreply.github.com>
+Date:   Thu Apr 13 11:44:29 2023 -0400
+
+    Merge pull request #1 from codepath/isabel-addfilestructure
+    
+    Add all files and readme
+
+[33mcommit 6283a017dedce4c70f09807003249654e65adb75[m
+Author: isabel-gwara <isabel.gwara@gmail.com>
+Date:   Sun Apr 9 18:35:02 2023 -0700
+
+    Add stubs for three deliverables
+
+[33mcommit 0bfff01d1ce0f3832c423565010008a9432ded03[m
+Author: isabel-gwara <isabel.gwara@gmail.com>
+Date:   Sun Apr 9 18:24:03 2023 -0700
+
+    Add Milestone 5
+
+[33mcommit 02b81471bafb321b5e3b8870981770188c08d260[m
+Author: isabel-gwara <isabel.gwara@gmail.com>
+Date:   Sun Apr 9 18:20:12 2023 -0700
+
+    Add milestone 4
+
+[33mcommit 4bc4f254863a68ef5c93147adfbc8ba86e8d0063[m
+Author: isabel-gwara <isabel.gwara@gmail.com>
+Date:   Sun Apr 9 18:20:07 2023 -0700
+
+    Add milestone 3
+
+[33mcommit 7ae18e6f6e6689e3eae4815f11e05732842c4b79[m
+Author: isabel-gwara <isabel.gwara@gmail.com>
+Date:   Sun Apr 9 12:57:52 2023 -0700
+
+    Remove feature_list.md
+
+[33mcommit 0b26f97cc12bc7d193a8efd21945273e289a22ba[m
+Author: isabel-gwara <isabel.gwara@gmail.com>
+Date:   Sun Apr 9 12:57:17 2023 -0700
+
+    Update readme with features
+
+[33mcommit 0abb7a57ba1c01a7f81b52942aa31c214d47c29e[m
+Author: isabel-gwara <isabel.gwara@gmail.com>
+Date:   Wed Apr 5 21:24:44 2023 -0700
+
+    Minor typo fixes
+
+[33mcommit fa623056cf7cca320ac082af8536a42476bb7a77[m
+Author: isabel-gwara <isabel.gwara@gmail.com>
+Date:   Wed Apr 5 20:43:45 2023 -0700
+
+    Add stubs for additional milestones
+
+[33mcommit 98fdac2a485be8e06673d5d7c5d7f8b790543e20[m
+Author: isabel-gwara <isabel.gwara@gmail.com>
+Date:   Wed Apr 5 20:42:46 2023 -0700
+
+    Add milestone 2
+
+[33mcommit b92e98b3c6f4f263790ea4137db4149e2b979c15[m
+Author: isabel-gwara <isabel.gwara@gmail.com>
+Date:   Wed Apr 5 20:39:51 2023 -0700
+
+    Styling and typos in milestone 1
+
+[33mcommit 231bae1e6d4c1b43537504abb1a2c56bb19de0e5[m
+Author: isabel-gwara <isabel.gwara@gmail.com>
+Date:   Wed Apr 5 20:36:12 2023 -0700
+
+    Update readme with description, purpose
+
+[33mcommit 7023c24f68d7d7e5ce318df742fa3040ef03130f[m
+Author: isabel-gwara <isabel.gwara@gmail.com>
+Date:   Wed Apr 5 20:35:54 2023 -0700
+
+    Add milestone 1 document
+
+[33mcommit ec1d2ca9d779ef3ca70d3feff01b823444060104[m
+Author: isabel-gwara <isabel.gwara@gmail.com>
+Date:   Wed Apr 5 20:18:28 2023 -0700
+
+    Add readme
+
+[33mcommit 2fb72951081495ed4cdbbe588553bf090e5e4b8b[m
+Author: isabel-gwara <isabel.gwara@gmail.com>
+Date:   Wed Apr 5 19:56:52 2023 -0700
+
+    add file structure for planning
+
+[33mcommit fee9e5476ea66f44891d6d4523e06baa7c433726[m
+Author: karencarreon <113876629+karencarreon@users.noreply.github.com>
+Date:   Wed Apr 5 21:06:52 2023 -0400
+
+    Initial commit

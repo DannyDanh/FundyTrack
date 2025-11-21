@@ -1,0 +1,276 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background: #9daec4;
+  color: #111827;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.5rem;
+  background: #111827;
+  color: white;
+}
+
+.app-header h1 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.app-header nav a {
+  color: #d1d5db;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.app-header nav a.active {
+  color: #ffffff;
+  border-bottom: 2px solid #f97316;
+}
+
+.app-main {
+  max-width: 900px;
+  margin: 1.5rem auto;
+  padding: 0 1rem 2rem;
+  width: 100%;
+}
+
+.page h2 {
+  margin-top: 0;
+}
+
+.card {
+  background: white;
+  padding: 1rem 1.25rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 4px rgba(15, 23, 42, 0.1);
+  margin-bottom: 1.25rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem;
+  align-items: end;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.85rem;
+  gap: 0.25rem;
+}
+
+input,
+select {
+  padding: 0.4rem 0.5rem;
+  border-radius: 0.4rem;
+  border: 1px solid #d1d5db;
+  font-size: 0.9rem;
+}
+
+.btn {
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  border: none;
+  background: #f97316;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #ea580c;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.table th,
+.table td {
+  padding: 0.4rem 0.5rem;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.table thead {
+  background: #f3f4f6;
+}
+
+.amount-col {
+  text-align: right;
+}
+
+.amount {
+  text-align: right;
+}
+
+.amount.expense {
+  color: #b91c1c;
+}
+
+.amount.income {
+  color: #15803d;
+}
+
+.error {
+  color: #b91c1c;
+  font-size: 0.85rem;
+}
+
+.category-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+}
+
+.category-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0;
+}
+
+.color-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  border: 1px solid #e5e7eb;
+}
+/* Layout for summary + chart side by side */
+/* Layout for summary + chart side by side */
+.dashboard-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-top: 0.75rem;
+}
+
+.dashboard-col {
+  flex: 1 1 260px;
+}
+
+.summary-col {
+  max-width: 380px;
+}
+
+.chart-col {
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.chart-subcard {
+  background: #f9fafb;
+  border-radius: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #e5e7eb;
+}
+
+
+/* Chart title */
+.chart-title {
+  margin: 0 0 0.5rem;
+  font-size: 0.9rem;
+  color: #4b5563;
+}
+
+/* Budget panel tweaks */
+.budget-panel {
+  margin-top: 0.75rem;
+}
+
+.budget-input-row {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-bottom: 0.2rem;
+}
+
+.budget-input-row input {
+  width: 100px;
+}
+
+/* Budget bar */
+.budget-bar {
+  width: 100%;
+  height: 10px;
+  border-radius: 999px;
+  background: #e5e7eb;
+  overflow: hidden;
+  margin-top: 0.25rem;
+}
+
+.budget-bar-fill {
+  height: 100%;
+  background: #f97316;
+}
+
+/* Challenges list */
+.challenge-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.25rem 0 0;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.challenge-list li {
+  border-radius: 0.75rem;
+  border: 1px solid #e5e7eb;
+  padding: 0.5rem 0.75rem;
+  background: #f9fafb;
+}
+
+.challenge-title {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.challenge-value {
+  display: block;
+  font-size: 0.9rem;
+  margin-top: 0.1rem;
+  color: #0f766e;
+}
+
+.challenge-desc {
+  display: block;
+  font-size: 0.8rem;
+  margin-top: 0.1rem;
+  color: #6b7280;
+}
+
+/* Responsive stacking */
+@media (max-width: 768px) {
+  .dashboard-row {
+    flex-direction: column;
+  }
+
+  .summary-col,
+  .chart-col {
+    max-width: 100%;
+  }
+}
