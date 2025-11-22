@@ -1,59 +1,115 @@
 // client/src/App.jsx
 import { useEffect, useState } from "react";
-import { Route, Routes, useNavigate } from "react-router-dom";
-
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import LandingPage from "./pages/LandingPage";
-import DashboardPage from "./pages/DashboardPage";
-import TransactionsPage from "./pages/TransactionsPage";
-import CategoriesPage from "./pages/CategoriesPage";
-import BudgetPage from "./pages/BudgetPage";
-import { api } from "./services/api";
+import DashboardPage from "./pages/DashboardPage.jsx";
+import TransactionsPage from "./pages/TransactionsPage.jsx";
+import CategoriesPage from "./pages/CategoriesPage.jsx";
+import BudgetPage from "./pages/BudgetPage.jsx";
 
-export default function App() {
+const API_BASE =
+  import.meta.env.VITE_API_BASE_URL || "http://localhost:5000";
+
+function App() {
   const [user, setUser] = useState(null);
-  const navigate = useNavigate();
+  const [loadingUser, setLoadingUser] = useState(true);
 
-  async function fetchUser() {
+  // load current user from /api/me
+  async function fetchMe() {
     try {
-      const res = await api.get("/api/me");
-      setUser(res.user || null);
-    } catch {
+      setLoadingUser(true);
+      const res = await fetch(`${API_BASE}/api/me`, {
+        credentials: "include",
+      });
+      const data = await res.json();
+      setUser(data.user || null);
+    } catch (err) {
+      console.error("Error loading /api/me", err);
       setUser(null);
+    } finally {
+      setLoadingUser(false);
     }
   }
 
   useEffect(() => {
-    fetchUser();
+    fetchMe();
   }, []);
 
   async function handleLogout() {
-    await api.post("/auth/logout", {});
-    setUser(null);
-    navigate("/");  // redirect to landing page
+    try {
+      await fetch(`${API_BASE}/auth/logout`, {
+        method: "POST",
+        credentials: "include",
+      });
+      setUser(null);
+    } catch (err) {
+      console.error("Logout failed", err);
+    }
+  }
+
+  const isAuthed = !!user;
+
+  function ProtectedRoute({ children }) {
+    if (loadingUser) return <div className="page">Loading...</div>;
+    if (!isAuthed) return <Navigate to="/" replace />;
+    return children;
   }
 
   return (
-    <div className="app">
+    <BrowserRouter>
       <Navbar user={user} onLogout={handleLogout} />
-
-      <main style={{ padding: "20px" }}>
-        {!user ? (
-          // Logged out → only landing page
-          <Routes>
-            <Route path="*" element={<LandingPage />} />
-          </Routes>
-        ) : (
-          // Logged in → protected routes
-          <Routes>
-            <Route path="/" element={<DashboardPage />} />
-            <Route path="/dashboard" element={<DashboardPage />} />
-            <Route path="/transactions" element={<TransactionsPage />} />
-            <Route path="/categories" element={<CategoriesPage />} />
-            <Route path="/budget" element={<BudgetPage />} />
-          </Routes>
-        )}
+      <main className="app-main">
+        <Routes>
+          {/* Landing page */}
+          <Route
+            path="/"
+            element={
+              !isAuthed ? (
+                <div className="landing">
+                  <h1>Welcome to FundyTrack</h1>
+                  <p>Sign in with Google to start tracking your money.</p>
+                </div>
+              ) : (
+                <Navigate to="/dashboard" replace />
+              )
+            }
+          />
+          <Route
+            path="/dashboard"
+            element={
+              <ProtectedRoute>
+                <DashboardPage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/transactions"
+            element={
+              <ProtectedRoute>
+                <TransactionsPage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/categories"
+            element={
+              <ProtectedRoute>
+                <CategoriesPage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/budget"
+            element={
+              <ProtectedRoute>
+                <BudgetPage />
+              </ProtectedRoute>
+            }
+          />
+        </Routes>
       </main>
-    </div>
+    </BrowserRouter>
   );
 }
+
+export default App;

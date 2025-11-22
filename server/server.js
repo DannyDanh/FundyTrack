@@ -24,6 +24,8 @@ const allowedOrigins = [
   FRONTEND_ORIGIN,
 ].filter(Boolean);
 
+
+
 app.use(
   cors({
     origin(origin, callback) {
@@ -38,6 +40,7 @@ app.use(
 
 app.use(express.json());
 
+app.set("trust proxy", 1);
 // 💾 sessions (store logged-in user id)
 app.use(
   session({
